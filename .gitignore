@@ -1,6 +1,4 @@
 /.dapper
-/bin
 /dist
 *.swp
 /.trash-cache
-kubecon
