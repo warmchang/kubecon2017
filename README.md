@@ -10,7 +10,17 @@ A microservice that does micro things.
 
 ## Running
 
-`./bin/kubecon`
+    $ ./bin/kubecon --config="/root/.kube/config"
+    INFO[0000] Using out of cluster config
+    INFO[0000] Node [minikube] is added; checking resources...
+    INFO[0000] Node [minikube] storage occupied by images changed. Old value: [0 B], new value: [4.8 GB]
+    INFO[0000] No changes in node [minikube] storage occupied by images
+    INFO[0002] No changes in node [minikube] storage occupied by images
+    INFO[0010] No changes in node [minikube] storage occupied by images
+    INFO[0012] No changes in node [minikube] storage occupied by images
+    INFO[0020] No changes in node [minikube] storage occupied by images
+    ^C
+    $
 
 ## License
 Copyright (c) 2014-2016 [Rancher Labs, Inc.](http://rancher.com)
